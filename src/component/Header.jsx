@@ -1,4 +1,4 @@
-import Bell from "./headersons/bell"
+import Bell from "./headersons/Bell"
 // import React from 'react'
 import Three from "./headersons/three"
 import Logo from "./headersons/Logo"
