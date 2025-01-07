@@ -1,5 +1,5 @@
 import Explore from "./sidersons/exp/Explore"
-import Line from "./sidersons/line"
+import Line from "./sidersons/Line"
 // import React from 'react'
 import Main from "./sidersons/main/main"
 import You from "./sidersons/you/you"
