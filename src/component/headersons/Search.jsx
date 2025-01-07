@@ -64,7 +64,7 @@ export default function Search() {
   return (
     <div>
       <div className="flex cursor-pointer ">
-        <div className="flex items-center border border-[#1f1f1f] box-border rounded-l-full ">
+        <div className="flex items-center border border-[#3f3f3f] box-border rounded-l-full ">
           <div
             style={{ display: hid ? 'block' : 'none' }}
           >
