@@ -1,7 +1,7 @@
 import { useState } from 'react';
 // import React from 'react'
 import Header from "./component/Header"
-import Sidebar from "./component/sidebar"
+import Sidebar from "./component/Sidebar"
 import Content from './component/Content';
 
 
@@ -21,7 +21,7 @@ export default function App() {
     <div >
 
       <div className=" sticky top-0 bg-[#0f0f0f] backdrop:blur-2xl z-10">
-        <Header opensider={opensider}></Header>
+        <Header Opensider={opensider}></Header>
       </div>
       <div className='flex gap-4 '>
         <div className='w-[15vw]' style={{

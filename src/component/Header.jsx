@@ -5,9 +5,11 @@ import Logo from "./headersons/Logo"
 import Search from "./headersons/Search"
 import Voice from "./headersons/Voice"
 import Plus from './headersons/Plus'
+// import PropTypes from "prop-types"
 import PropTypes from "prop-types"
+// import propTypes from "prop-types"
 
-export default function Header({ opensider }) {
+export default function Header({ Opensider }) {
 
   // const opensider = ()=> {
   // document.querySelector
@@ -18,7 +20,7 @@ export default function Header({ opensider }) {
     <div>
       <div className=" flex justify-between my-2 gap-1 items-center">
         <div className="flex md:gap-8 gap-0 items-center md:ml-6  ">
-          <div onClick={opensider} >
+          <div onClick={Opensider} >
             <Three ></Three>
           </div>
           <Logo />
@@ -48,6 +50,6 @@ export default function Header({ opensider }) {
 
 
 
-Header.PropTypes = {
-  opensider : PropTypes
+Header.propTypes = {
+  Opensider: PropTypes.any,
 }
