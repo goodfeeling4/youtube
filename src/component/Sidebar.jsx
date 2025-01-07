@@ -4,7 +4,7 @@ import Line from "./sidersons/Line"
 import Main from "./sidersons/main/main"
 import You from "./sidersons/you/you"
 import Subscription from "./sidersons/subscription/subscription"
-import Tools from "./sidersons/tools/tools"
+import Tools from "./sidersons/tools/Tools"
 
 
 export default function Sidebar() {
