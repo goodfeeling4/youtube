@@ -1,5 +1,5 @@
 // import React from 'react'
-import trending from '../../../../assets/Explore/trending.svg'
+import trending from '../../../../assets/Explore/Trending.svg'
 export default function Trending() {
   return (
     <div className='flex gap-4 '>

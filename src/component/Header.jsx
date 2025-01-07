@@ -1,6 +1,6 @@
-import Bell from "./headersons/bell"
+import Bell from "./headersons/Bell"
 // import React from 'react'
-import Three from "./headersons/three"
+import Three from "./headersons/Three"
 import Logo from "./headersons/Logo"
 import Search from "./headersons/Search"
 import Voice from "./headersons/Voice"
