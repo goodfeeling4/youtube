@@ -70,7 +70,7 @@ export default function Sidebar() {
 
   return (
     <div id="side">
-        <div className="w-[15vw] grid gap-1 overflow-auto  h-[90vh] ">
+        <div className="w-[15vw] grid gap-1 hover:overscroll-contain overflow-auto h-[91vh] ">
             <div onClick={bg1}>
             <Main></Main>
 

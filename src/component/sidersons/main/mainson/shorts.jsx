@@ -4,7 +4,7 @@ import shorts from '../../../../assets/icon/shorts.svg'
 export default function Shorts() {
   return (
     <div className='flex cursor-pointer '>
-      <img src={shorts} alt="" className='invert px-3' />
+      <img src={shorts} alt="" className='px-3' />
       <span>Shorts</span>
     </div>
   )

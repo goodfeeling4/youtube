@@ -2,7 +2,7 @@
 
 export default function Subscription() {
     return (
-        <div className="invert mx-4 grid gap-4">
+        <div className="dark:invert mx-4 grid gap-4">
             <span className="text-lg font-bold cursor-pointer">Subscription</span>
             <div className="flex gap-4 cursor-pointer">
                 <img id="img" draggable="false" className="rounded-full" alt="" height="24" width="24" src="https://yt3.ggpht.com/eRB6oijQ30Os9V2O2ZfPMsPtZElNxANfcP0j8jP0V2x7IBhPX_xCsIf_tdFS4WSlkmcSqBrE=s88-c-k-c0x00ffffff-no-rj"></img>

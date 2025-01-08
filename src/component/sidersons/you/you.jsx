@@ -152,49 +152,49 @@ export default function You() {
 
 
 
-  <div className="invert m-2 grid ">
-    <div onClick={bg1} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+  <div className="dark:invert m-2 grid ">
+    <div onClick={bg1} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs1 ? "#d1d1d1" : "" }}>
       <Text></Text>
 
     </div>
-    <div onClick={bg2} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg2} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs2 ? "#d1d1d1" : "" }}>
       <History />
 
 
     </div>
-    <div onClick={bg3} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg3} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs3 ? "#d1d1d1" : "" }}>
       <Playlist />
 
     </div>
-    <div onClick={bg4} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg4} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs4 ? "#d1d1d1" : "" }}>
       <Course></Course>
 
     </div>
-    <div onClick={bg5} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg5} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs5 ? "#d1d1d1" : "" }}>
       <Video></Video>
 
     </div>
-    <div onClick={bg6} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg6} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs6 ? "#d1d1d1" : "" }}>
       <Watch></Watch>
 
     </div>
-    <div onClick={bg7} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg7} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs7 ? "#d1d1d1" : "" }}>
       <Liked></Liked>
 
     </div>
-    <div onClick={bg8} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg8} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs8 ? "#d1d1d1" : "" }}>
       <Downloads></Downloads>
 
     </div>
-    <div onClick={bg9} className="hover:bg-[#d1d1d1] p-3 rounded-lg"
+    <div onClick={bg9} className="dark:hover:bg-[#d1d1d1] hover:bg-[#d9d9d9] p-3 rounded-lg"
       style={{ backgroundColor: bgs9 ? "#d1d1d1" : "" }}>
       <Clip></Clip>
 

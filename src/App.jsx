@@ -19,7 +19,7 @@ export default function App() {
   return (
     <div >
 
-      <div className=" sticky top-0 bg-[#0f0f0f] backdrop:blur-2xl z-10">
+      <div className=" sticky top-0 backdrop:blur-2xl z-10">
         <Header Opensider={opensider}></Header>
       </div>
       <div className='flex '>

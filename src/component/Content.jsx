@@ -2,7 +2,7 @@
 import Box from "./contentsons/Box"
 export default function Content() {
   return (
-    <div className="flex flex-wrap gap-1.5 h-[90vh] overflow-auto m-4 ">        
+    <div className="flex flex-wrap gap-1.5 h-[89vh] overflow-auto m-2">        
         <Box></Box>
         <Box></Box>
         <Box></Box>

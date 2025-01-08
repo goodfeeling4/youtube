@@ -38,20 +38,20 @@ const bg3 =() => {
 
   return (
     <div>
-       <div className="text-white grid gap-1">
-        <div onClick={bg1} className="hover:bg-[#2f2f2f] py-3 rounded-lg"
-        style={{backgroundColor:bgs1?"blue":""}}>
+       <div className="dark:invert grid gap-1">
+        <div onClick={bg1} className="py-3 hover:bg-[#d9d9d9] rounded-lg"
+        style={{backgroundColor:bgs1?"#d9d9d9":""}}>
         <Home ></Home>
 
         </div>
-        <div onClick={bg2} className="hover:bg-[#2f2f2f] py-3 rounded-lg"
-        style={{backgroundColor:bgs2?"blue":""}}>
+        <div onClick={bg2} className="py-3 hover:bg-[#d9d9d9] rounded-lg"
+        style={{backgroundColor:bgs2?"#d9d9d9":""}}>
         
         <Shorts ></Shorts>
 
         </div>
-        <div onClick={bg3} className="hover:bg-[#2f2f2f] py-3 rounded-lg"
-        style={{backgroundColor:bgs3?"blue":""}}>
+        <div onClick={bg3} className="py-3 hover:bg-[#d9d9d9] rounded-lg"
+        style={{backgroundColor:bgs3?"#d9d9d9":""}}>
         
         <Subs ></Subs>
 

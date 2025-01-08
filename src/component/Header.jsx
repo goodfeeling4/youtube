@@ -34,7 +34,7 @@ export default function Header({ Opensider }) {
         <div className="flex gap-2 items-center ">
           <Plus></Plus>
           <Bell></Bell>
-          <p className="text-white sm:text-lg text-xs flex items-center sm:px-4 sm:py-2 px-2 py-1  hover:bg-red-500 bg-red-600 rounded-full cursor-pointer">
+          <p className="text-white sm:text-lg text-xs flex items-center sm:px-4 sm:py-2 px-2 py-1 hover:bg-red-500 bg-red-600 rounded-full cursor-pointer">
             <p >M</p>
           </p>
         </div>

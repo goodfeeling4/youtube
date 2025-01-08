@@ -12,7 +12,7 @@ import Sport from "./exploresons/Sport"
 
 export default function Explore() {
   return (
-    <div className="invert mx-4 grid gap-3 ">
+    <div className="dark:invert mx-4 grid gap-3 ">
       <Trending></Trending>
       <Shopping></Shopping>
       <Music></Music>

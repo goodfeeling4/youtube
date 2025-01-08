@@ -21,16 +21,17 @@ export default function Search() {
 
   return (
     <div>
-      <div className="flex cursor-pointer ">
-        <div className="flex items-center border border-[#3f3f3f] box-border rounded-l-full ">
-          <div
+      <div className="flex cursor-pointer dark:invert ">
+        <div className="flex items-center border border-[#a6a6a6] box-border rounded-l-full ">
+        <div className=" flex pl-2.5  items-baseline  "
+        
             style={{ display: hid ? 'block' : 'none' }}
           >
             <Searchicon ></Searchicon>
           </div>
           <Input hide={hide} open={open}></Input>
         </div>
-        <div className=" bg-[#1f1f1f] rounded-r-full pr-2">
+        <div className="sm:h-10 sm:w-12 flex justify-center items-center bg-[#d9d9d9] border border-[#a6a6a6]  rounded-r-full pr-2">
           <Searchicon ></Searchicon>
         </div>
 

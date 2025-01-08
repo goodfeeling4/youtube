@@ -4,7 +4,7 @@ import flag from './../../../assets/tools/flag.svg'
 import setting from './../../../assets/tools/settings.svg'
 export default function Tools() {
   return (
-    <div className=' invert grid gap-4 ml-4 '>
+    <div className=' dark:invert grid gap-4 ml-4 '>
       <div className='flex gap-4'>
         <img src={feedback} alt="" />
         <span>Feedback</span>

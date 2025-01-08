@@ -7,7 +7,7 @@ import three from "../../assets/header/three.svg"
 export default function Three() {
   return (
     <div>
-      <img src={three} alt="" className="invert w-6 cursor-pointer "/>
+      <img src={three} alt="" className="dark:invert w-6 cursor-pointer "/>
     </div>
   )
 }
