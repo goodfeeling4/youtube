@@ -1,8 +1,8 @@
 // import React from 'react'
 import Box from "./contentsons/Box"
-export default function Content(props) {
+export default function Content() {
   return (
-    <div className="flex flex-wrap gap-5 h-[90vh] overflow-auto">        
+    <div className="flex flex-wrap gap-1.5 h-[90vh] overflow-auto m-4 ">        
         <Box></Box>
         <Box></Box>
         <Box></Box>

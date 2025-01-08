@@ -1,17 +1,16 @@
 import { useState } from 'react';
-// import React from 'react'
 import Header from "./component/Header"
 import Sidebar from "./component/Sidebar"
 import Content from './component/Content';
-
+import Smallsidebar from './component/Smallsidebar';
 
 
 export default function App() {
 
-  const [isRotated, setIsRotated] = useState(false);
+  const [translate, settranslate] = useState(false);
 
   const opensider = () => {
-    setIsRotated(!isRotated);
+    settranslate(!translate)
   };
 
 
@@ -23,12 +22,15 @@ export default function App() {
       <div className=" sticky top-0 bg-[#0f0f0f] backdrop:blur-2xl z-10">
         <Header Opensider={opensider}></Header>
       </div>
-      <div className='flex gap-4 '>
+      <div className='flex '>
         <div className='w-[15vw]' style={{
-          transform: isRotated ? 'translate(-100%)' : 'translate(0%)',
-          transition: 'transform 0.3s ease'
+          display: translate? 'none' : 'block',
         }}>
           <Sidebar></Sidebar>
+
+        </div>
+        <div className='text-white ' style={{display:translate?'block':'none'}}>
+          <Smallsidebar></Smallsidebar>
         </div>
         <div>
           <Content></Content>
