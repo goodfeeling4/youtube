@@ -14,7 +14,7 @@ export default function Sidebar() {
 
   return (
     <div id="side">
-        <div className="w-[15vw] grid gap-1 hover:overscroll-contain overflow-auto h-[91vh] ">
+        <div className="md:w-[15vw] w-[35vw] grid gap-1 hover:overscroll-contain overflow-auto h-[91vh] ">
             <Main></Main>
 
             <Line></Line>

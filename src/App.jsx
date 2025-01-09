@@ -19,20 +19,20 @@ export default function App() {
   return (
     <div >
 
-      <div className=" sticky top-0 backdrop:blur-2xl z-10">
+      <div className=" sticky top-0 z-10">
         <Header Opensider={opensider}></Header>
       </div>
-      <div className='flex '>
-        <div className='w-[15vw]' style={{
-          display: translate? 'none' : 'block',
-        }}>
+      <div className='flex'>
+        <div className={`${!translate?'hidden':'block'} md:${translate?'hidden':'block'}`} >
           <Sidebar></Sidebar>
 
         </div>
-        <div className='text-white ' style={{display:translate?'block':'none'}}>
+        <div className={`text-white ${translate?'hidden':'block'} md:${!translate? "hidden": "block"}  `} 
+        // style={{display:translate?'block':'none'}}
+        >
           <Smallsidebar></Smallsidebar>
         </div>
-        <div>
+        <div >
           <Content></Content>
         </div>
       </div>

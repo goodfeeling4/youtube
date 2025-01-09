@@ -28,22 +28,24 @@ export default function Header({ Opensider }) {
     setspr(!spr)
   }
 
-  const hidprofile =()=> {
+  const hidprofile = () => {
     setspr(!spr)
   }
- 
+
 
   return (
     <div>
       <div className=" flex justify-between my-2 gap-1 items-center">
-        <div className="flex md:gap-8 gap-0 items-center md:ml-6  ">
+        <div className="flex md:gap-8 gap-0 items-center md:ml-6 ml-2 ">
           <div onClick={Opensider} >
             <Three ></Three>
           </div>
-          <Logo />
+          <div className=" w-16">
+            <Logo />
+          </div>
         </div>
         <div className=" flex sm:gap-5 gap-2 items-center ">
-          <div className="w-[48vw] justify-end flex ">
+          <div className="w-[40vw] justify-end flex ">
             <Search></Search>
           </div>
           <Voice />
@@ -64,12 +66,12 @@ export default function Header({ Opensider }) {
           </div>
           <div className="relative">
             <button
-             onClick={showprofile} onBlur={hidprofile}
+              onClick={showprofile} onBlur={hidprofile}
               className="text-white sm:text-lg text-xs flex items-center sm:px-2 sm:py-1 px-2 py-1 mr-[2vw] hover:bg-red-500 bg-red-600 rounded-full cursor-pointer">
               <p >M</p>
             </button>
-            <div 
-            style={{display:spr?'block':'none'}}
+            <div
+              style={{ display: spr ? 'block' : 'none' }}
             >
               <Profile></Profile>
 

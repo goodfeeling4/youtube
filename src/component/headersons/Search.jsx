@@ -23,7 +23,7 @@ export default function Search() {
     <div>
       <div className="flex cursor-pointer dark:invert ">
         <div className="flex items-center border border-[#a6a6a6] box-border rounded-l-full ">
-        <div className=" flex pl-2.5  items-baseline  "
+        <div className=" flex pl-2.5 w-7 "
         
             style={{ display: hid ? 'block' : 'none' }}
           >
