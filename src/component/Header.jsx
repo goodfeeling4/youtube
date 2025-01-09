@@ -5,16 +5,33 @@ import Logo from "./headersons/Logo"
 import Search from "./headersons/Search"
 import Voice from "./headersons/Voice"
 import Plus from './headersons/Plus'
-// import PropTypes from "prop-types"
 import PropTypes from "prop-types"
-// import propTypes from "prop-types"
+// absolute bar 
+import Profile from "../absolute/Profile"
+import Plusclick from "../absolute/plusclick"
+import { useState } from "react"
+
 
 export default function Header({ Opensider }) {
 
-  // const opensider = ()=> {
-  // document.querySelector
-  // }
+  const [plhid, setplhid] = useState(false)
+  const showplus = () => {
+    setplhid(!plhid)
+  }
+  const hidplus = () => {
+    setplhid(!plhid)
+  }
 
+  // profile
+  const [spr, setspr] = useState(false)
+  const showprofile = () => {
+    setspr(!spr)
+  }
+
+  const hidprofile =()=> {
+    setspr(!spr)
+  }
+ 
 
   return (
     <div>
@@ -32,11 +49,32 @@ export default function Header({ Opensider }) {
           <Voice />
         </div>
         <div className="flex gap-2 items-center ">
-          <Plus></Plus>
-          <Bell></Bell>
-          <p className="text-white sm:text-lg text-xs flex items-center sm:px-4 sm:py-2 px-2 py-1 hover:bg-red-500 bg-red-600 rounded-full cursor-pointer">
-            <p >M</p>
-          </p>
+          <div className="relative">
+            <div>
+              <Plus showplus={showplus} hidplus={hidplus}></Plus>
+
+            </div>
+            <div style={{ display: plhid ? 'block' : 'none' }}>
+              <Plusclick></Plusclick>
+
+            </div>
+          </div>
+          <div >
+            <Bell></Bell>
+          </div>
+          <div className="relative">
+            <button
+             onClick={showprofile} onBlur={hidprofile}
+              className="text-white sm:text-lg text-xs flex items-center sm:px-2 sm:py-1 px-2 py-1 mr-[2vw] hover:bg-red-500 bg-red-600 rounded-full cursor-pointer">
+              <p >M</p>
+            </button>
+            <div 
+            style={{display:spr?'block':'none'}}
+            >
+              <Profile></Profile>
+
+            </div>
+          </div>
         </div>
 
       </div>
